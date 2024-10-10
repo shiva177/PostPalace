@@ -1,4 +1,4 @@
-# Blog Project Backend
+# Postpalace Project Backend
 Postpalace Project Spring Boot REST API's
 
 ## Tools and Technologies
