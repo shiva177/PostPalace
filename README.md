@@ -25,8 +25,6 @@ Postpalace Project Spring Boot REST API's
 - Postman - Test REST API
 - Maven - Build Tool
 
-### Deployment on Production:
-- AWS
 
 ## To do
 MySql  -->  create database myblog;
@@ -44,7 +42,7 @@ MySql  -->  create database myblog;
 - JWT ( Json Web Tokens) - Securing REST API's with JWT
 - Versioning REST API's
 - Swagger REST API Documentation
-- Deploying Spring Boot Blog App on AWS Cloud
+
 
 ## Entity relations in database
 ###### one to many
@@ -70,18 +68,13 @@ MySql  -->  create database myblog;
 3. Versioning through custom headers
 - REST APIs can also be versioned by providing custom headers with the version number included as an attribute.
 - The main difference between this approach and the two previous ones is that it doesn’t clutter the URI with versioning information.
-#### Examples:
-- http://localhost:8080/api/products headers=[X-API-VERSION=1]
-- http://localhost:8080/api/products headers=[X-API-VERSION=2]
+
 ##### Pros: It doesn’t clutter the URI with versioning information
 ##### Cons: It requires custom headers
 
 4. Versioning through content negotiation
 - The last strategy we are addressing is versioning through content negotiation.
 - In this approach, we use the Accept header in the request.
-#### Examples:
-- http://localhost:8080/api/products headers[Accept=application/vnd.javaguides-v1+json] 
-- http://localhost:8080/api/products headers[Accept=application/vnd.javaguides-v2+json]
 
 ## REST Documentation with Swagger
 ### Why the Swagger is used for
